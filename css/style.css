@@ -1,0 +1,105 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(51, 51, 51);
+    background-color: rgb(234, 234, 234);
+    margin: 0;
+}
+
+.d-block {
+    display: block;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.bg-image {
+    background-image: url("../img/background-image.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.btn {
+    background-color: #333333;
+    cursor: pointer;
+    transition: .5s;
+    border-color: white;
+    border-radius: 4px;    
+    padding: 10px 25px;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 10px gray;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    background-color: red;
+    border-color: gray;
+    box-shadow: 1px 1px 10px red;
+}
+
+.lh-1 {
+    line-height: 1.5;
+}
+
+.trans:hover {
+    transform: scale(1.1);
+    transition: .6s;
+    cursor: pointer;
+}
+
+.grayscale {
+    transition: .5s;
+    cursor: pointer;
+    filter: blur(1.5px);
+}
+
+.grayscale:hover {
+    filter: brightness(1.1);
+    transform: scale(1.02);
+}
+
+.border-0 {
+    border: 0;
+}
+
+.border-white {
+    border: 1px solid white;
+}
+
+.img-hover {
+    transition: .6s;
+}
+
+.img-hover:hover {
+    transform: scale(1.03);
+    transition: .6s all;
+    cursor: pointer;
+    filter: contrast(1.2);
+}
+
